@@ -1,0 +1,274 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "slug": "how-i-built-an-expense-tracker-with-react",
+            "title": "How I Built an Expense Tracker with React",
+            "excerpt": "React, Tailwind, LocalStorage and how I structured the app for real users.",
+            "content": "Full walkthrough of building the expense tracker: state design, components, localStorage persistence, and UI lessons from Refactoring UI.",
+            "category": "Frontend",
+            "tags": ["frontend", "react", "student-dev"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=11"
+            },
+            "coverImage": "https://picsum.photos/seed/blog1/800/450",
+            "publishedAt": "2026-10-04T08:00:00",
+            "readTime": "5 min read",
+            "views": 1243,
+            "featured": true
+        },
+        {
+            "id": 2,
+            "slug": "c-pointers-finally-clicked",
+            "title": "C Pointers Finally Clicked",
+            "excerpt": "After 3 weeks of confusion, this analogy made pointers make sense.",
+            "content": "Explaining pointers as addresses, dereferencing, and common malloc pitfalls with exercises.",
+            "category": "C Programming",
+            "tags": ["c", "programming", "learning"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=12"
+            },
+            "coverImage": "https://picsum.photos/seed/blog2/800/450",
+            "publishedAt": "2026-10-02T08:00:00",
+            "readTime": "7 min read",
+            "views": 892,
+            "featured": true
+        },
+        {
+            "id": 3,
+            "slug": "refactoring-ui-what-i-learned-this-week",
+            "title": "Refactoring UI: What I Learned This Week",
+            "excerpt": "Applying spacing, color and hierarchy to my tracker project.",
+            "content": "Notes from reading Refactoring UI and immediately applying to my projects.",
+            "category": "Design",
+            "tags": ["design", "ui", "frontend"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=13"
+            },
+            "coverImage": "https://picsum.photos/seed/blog3/800/450",
+            "publishedAt": "2026-09-30T08:00:00",
+            "readTime": "4 min read",
+            "views": 2103,
+            "featured": true
+        },
+        {
+            "id": 4,
+            "slug": "understanding-os-processes-vs-threads",
+            "title": "Understanding OS Processes vs Threads",
+            "excerpt": "OS class notes simplified with diagrams and real examples.",
+            "content": "Deep dive into Operating Systems concepts from Thursday class.",
+            "category": "Computer Science",
+            "tags": ["os", "computer-science", "notes"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=14"
+            },
+            "coverImage": "https://picsum.photos/seed/blog4/800/450",
+            "publishedAt": "2026-09-28T08:00:00",
+            "readTime": "6 min read",
+            "views": 543,
+            "featured": false
+        },
+        {
+            "id": 5,
+            "slug": "my-trading-journal-system",
+            "title": "My Trading Journal System",
+            "excerpt": "How I log AMD setups and review mistakes without strategy hopping.",
+            "content": "Trading journal template and review process.",
+            "category": "Trading",
+            "tags": ["trading", "journal", "discipline"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=15"
+            },
+            "coverImage": "https://picsum.photos/seed/blog5/800/450",
+            "publishedAt": "2026-09-26T08:00:00",
+            "readTime": "5 min read",
+            "views": 432,
+            "featured": false
+        },
+        {
+            "id": 6,
+            "slug": "internet-technology-http-deep-dive",
+            "title": "Internet Technology: HTTP Deep Dive",
+            "excerpt": "What actually happens when you type google.com in your browser.",
+            "content": "Tuesday review notes: DNS, TCP, HTTP, and more.",
+            "category": "Networking",
+            "tags": ["networking", "internet-tech", "http"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=16"
+            },
+            "coverImage": "https://picsum.photos/seed/blog6/800/450",
+            "publishedAt": "2026-09-24T08:00:00",
+            "readTime": "8 min read",
+            "views": 765,
+            "featured": false
+        },
+        {
+            "id": 7,
+            "slug": "why-i-started-a-developer-circle",
+            "title": "Why I Started a Developer Circle",
+            "excerpt": "Finding your people in campus is more important than tutorials.",
+            "content": "How to find programmers, cybersecurity students, and builders on campus.",
+            "category": "Community",
+            "tags": ["community", "networking", "campus"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=17"
+            },
+            "coverImage": "https://picsum.photos/seed/blog7/800/450",
+            "publishedAt": "2026-09-22T08:00:00",
+            "readTime": "4 min read",
+            "views": 1204,
+            "featured": false
+        },
+        {
+            "id": 8,
+            "slug": "cooperative-philosophy-in-tech",
+            "title": "Cooperative Philosophy in Tech",
+            "excerpt": "What cooperatives teach us about building products together.",
+            "content": "Reflections from Cooperative Philosophy class applied to tech teams.",
+            "category": "Philosophy",
+            "tags": ["philosophy", "cooperation", "thoughts"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=18"
+            },
+            "coverImage": "https://picsum.photos/seed/blog8/800/450",
+            "publishedAt": "2026-09-20T08:00:00",
+            "readTime": "6 min read",
+            "views": 321,
+            "featured": false
+        },
+        {
+            "id": 9,
+            "slug": "math-for-programmers-discrete-math-tips",
+            "title": "Math for Programmers: Discrete Math Tips",
+            "excerpt": "How I study proofs without losing my mind.",
+            "content": "Study system for Mathematics on Fridays.",
+            "category": "Mathematics",
+            "tags": ["math", "study", "tips"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=19"
+            },
+            "coverImage": "https://picsum.photos/seed/blog9/800/450",
+            "publishedAt": "2026-09-18T08:00:00",
+            "readTime": "7 min read",
+            "views": 654,
+            "featured": false
+        },
+        {
+            "id": 10,
+            "slug": "c-memory-management-malloc-free",
+            "title": "C Memory Management: malloc & free",
+            "excerpt": "Common leaks and how to avoid them in your C assignments.",
+            "content": "Practical C memory guide with valgrind tips.",
+            "category": "C Programming",
+            "tags": ["c", "memory", "malloc"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=20"
+            },
+            "coverImage": "https://picsum.photos/seed/blog10/800/450",
+            "publishedAt": "2026-09-16T08:00:00",
+            "readTime": "6 min read",
+            "views": 987,
+            "featured": false
+        },
+        {
+            "id": 11,
+            "slug": "frontend-performance-less-is-more",
+            "title": "Frontend Performance: Less is More",
+            "excerpt": "Removing unnecessary re-renders in my expense tracker.",
+            "content": "useMemo, useCallback and when NOT to use them.",
+            "category": "Frontend",
+            "tags": ["frontend", "performance", "react"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=21"
+            },
+            "coverImage": "https://picsum.photos/seed/blog11/800/450",
+            "publishedAt": "2026-09-14T08:00:00",
+            "readTime": "5 min read",
+            "views": 1456,
+            "featured": false
+        },
+        {
+            "id": 12,
+            "slug": "laws-of-human-nature-key-takeaways",
+            "title": "Laws of Human Nature: Key Takeaways",
+            "excerpt": "Notes from 20 minutes of daily reading that changed how I see people.",
+            "content": "Summary of key laws applied to developer circles and campus life.",
+            "category": "Books",
+            "tags": ["books", "psychology", "reading"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=22"
+            },
+            "coverImage": "https://picsum.photos/seed/blog12/800/450",
+            "publishedAt": "2026-09-12T08:00:00",
+            "readTime": "4 min read",
+            "views": 876,
+            "featured": false
+        },
+        {
+            "id": 13,
+            "slug": "building-habits-with-a-weekly-system",
+            "title": "Building Habits with a Weekly System",
+            "excerpt": "How a fixed timetable beat motivation every time.",
+            "content": "Why I moved from todo lists to time blocks.",
+            "category": "Productivity",
+            "tags": ["productivity", "habits", "system"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=23"
+            },
+            "coverImage": "https://picsum.photos/seed/blog13/800/450",
+            "publishedAt": "2026-09-10T08:00:00",
+            "readTime": "3 min read",
+            "views": 2345,
+            "featured": false
+        },
+        {
+            "id": 14,
+            "slug": "from-tutorial-hell-to-building",
+            "title": "From Tutorial Hell to Building",
+            "excerpt": "Stop watching, start shipping. My rule for frontend learning.",
+            "content": "Build first, tutorial only when stuck. My Saturday builder day story.",
+            "category": "Frontend",
+            "tags": ["frontend", "learning", "tutorial-hell"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=24"
+            },
+            "coverImage": "https://picsum.photos/seed/blog14/800/450",
+            "publishedAt": "2026-09-08T08:00:00",
+            "readTime": "5 min read",
+            "views": 1890,
+            "featured": false
+        },
+        {
+            "id": 15,
+            "slug": "my-reset-sunday-routine",
+            "title": "My Reset Sunday Routine",
+            "excerpt": "How I consolidate a week of coursework in 2 hours and plan the next.",
+            "content": "Sunday reset: consolidation, C practice, Laws, trading, weekly review.",
+            "category": "Productivity",
+            "tags": ["productivity", "sunday", "reset"],
+            "author": {
+                "name": "Nandi Dev",
+                "avatar": "https://i.pravatar.cc/150?img=25"
+            },
+            "coverImage": "https://picsum.photos/seed/blog15/800/450",
+            "publishedAt": "2026-09-06T08:00:00",
+            "readTime": "4 min read",
+            "views": 1120,
+            "featured": false
+        }
+    ]
+}
