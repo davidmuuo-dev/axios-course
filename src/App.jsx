@@ -1,6 +1,8 @@
 import axios from "axios";
 import eruda from "eruda";
 import { useState, useEffect } from "react";
+import apiInstance from "./apis.jsx";
+
 eruda.init();
 
 function App() {
@@ -9,19 +11,16 @@ function App() {
     useEffect(() => {
         const getPosts = async () => {
             try {
-                const response = await axios.get(
-                    "https://jsonplaceholder.typicode.com/posts",
-                    {
-                        params: {
-                            postId: 5
-                        }
+                const response = await apiInstance.get("/", {
+                    params: {
+                        postId: 5
                     }
-                );
+                });
                 setPosts(response.data);
-                setLoading(false);
             } catch (error) {
                 console.error(error);
             } finally {
+                setLoading(false);
                 console.log("Request completed");
             }
         };
@@ -33,10 +32,11 @@ function App() {
     //=====================
     const createPost = async () => {
         try {
-            const response = await axios.post(
-                "https://jsonplaceholder.typicode.com/posts",
-                { title: "David Muuo", body: "Upcoming Hacker", userId: 1 }
-            );
+            const response = await apiInstance.post("/", {
+                title: "David Muuo",
+                body: "Upcoming Hacker",
+                userId: 1
+            });
             setPosts([...posts, response.data]);
         } catch (error) {
             console.error(error);
@@ -57,10 +57,7 @@ function App() {
         };
 
         try {
-            const response = await axios.put(
-                "https://jsonplaceholder.typicode.com/posts/1",
-                updatedPost
-            );
+            const response = await apiInstance.put("/1", updatedPost);
 
             // This is the key part - update state manually
             setPosts(prevPosts =>
@@ -79,10 +76,9 @@ function App() {
 
     const patchUpdate = async () => {
         try {
-            const response = await axios.patch(
-                "https://jsonplaceholder.typicode.com/posts/3",
-                { title: "This is a patch update" }
-            );
+            const response = await apiInstance.patch("/3", {
+                title: "This is a patch update"
+            });
             setPosts(prevPosts =>
                 prevPosts.map(post => (post.id === 3 ? response.data : post))
             );
@@ -99,9 +95,7 @@ function App() {
 
     const deletePost = async () => {
         try {
-            const response = await axios.delete(
-                "https://jsonplaceholder.typicode.com/posts/1"
-            );
+            const response = await apiInstance.delete("/1");
             console.log(response.data);
         } catch (error) {
             console.error(error);
